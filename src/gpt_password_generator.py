@@ -8,7 +8,7 @@ load_dotenv()
 
 class GPTPasswordGenerator:
     def __init__(self, api_key=None, model="text-davinci-003"):
-        self.api_key = api_key or os.getenv("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")
+        self.api_key = api_key ("")
         openai.api_key = self.api_key
         self.model = model
 
